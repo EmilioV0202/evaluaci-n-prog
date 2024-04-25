@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: linear-gradient(120deg,rgba(114, 196, 221, 0.5),
+    rgba(161, 235, 155, 0.8)),url(img/fondo.webp);
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0%;
+}
+.card{
+    background-color: rgb(228, 225, 219);
+    box-shadow: 0 0 10px rgb(78, 35, 233);
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+.hero h1{
+    font-size: 60px;
+    text-shadow: 0 0 10px rgb(77, 231, 62);
+    background-position: center;
+}
+.hero h2{
+    font-size: 45px;
+    text-shadow: 0 0 6px rgb(94, 228, 68);
+}
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contenedor-card{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card i{
+    font-size: 40px;
+    color:darkgreen;
+}
+.espacio{
+    margin: 30px 0;
+}
+.galeria{
+    background-color: rgb(88, 197, 233);
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.contenedor-galeria{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contenedor-galeria img{
+    width: 24%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 12px rgb(108, 233, 108);
+}
+.contenedor-galeria img:hover{
+    transform: scaleX(-2.2);
+    transition: 2.0s;
+}
+.card-formulario{
+    background-color: rgb(245, 243, 240);
+    box-shadow: 0 0 10px rgb(233, 17, 161);
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(32, 219, 42);
+    color: white;
+    text-shadow: 0 0 5px black;
+}
